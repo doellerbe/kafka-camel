@@ -67,7 +67,6 @@ public class KafkaConfig {
      * @return
      */
 
-    @SuppressWarnings("rawtypes")
     @Bean
     public ProducerFactory producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfigs());
